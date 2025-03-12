@@ -56,10 +56,10 @@ struct TestPerson {
 using P = Person; // 별칭 지정 => 구조체의 이름이 너무 길 경우 간단하게 사용하기 위해 사용
 
 int main() {
-	Person p1; 						// 인스턴스 생성
-	p1.name = "jerry"; 		// p1.name 초기화
+	Person p1; 	// 인스턴스 생성
+	p1.name = "jerry"; 	// p1.name 초기화
 	p1.address = "mapo"; 	// p1.address 초기화
-	p1.age = 29; 					// p1.age 초기화
+	p1.age = 29; 	// p1.age 초기화
 
 	cout << "이름 : " << p1.name << endl;
 	cout << "주소 : " << p1.address << endl;
