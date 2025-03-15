@@ -127,6 +127,7 @@ public:
 	string name;
 
 	// Method Chaining => 클래스 포인터를 사용하여 this를 반환함으로써 메서드 체이닝을 활용
+	// Person* this = 인스턴스 주소
 	Person* setName(string name) {
 		this->name = name;
 		return this;
